@@ -1,12 +1,12 @@
 {
-  "name": "intro",
+  "name": "stream",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon chat.js"
+    "start": "nodemon server.js"
   },
-  "author": "",
+  "author": "Tuanle207",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
