@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css" >
+    </head>
+    <body>
+        <div class="container" id="camera-container">
+            <div class="camera-box">
+                <video id="local_video" autoplay muted></video>
+                <video id="received_video" autoplay></video>
+            </div>
+            <button id="call">
+                Call
+            </button>
+            <button id="answer">
+                Answer
+            </button>
+            <input type="text" id="id" placeholder="enter your id" />
+            <input type="text" id="toid" placeholder="id to call to" />
+            <button id="start">Start listening</button>
+        </div>
+        <script src="./socket.io/socket.io.js"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>
+

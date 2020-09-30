@@ -1,0 +1,58 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.camera-box {
+    width: 100%;
+    height: 600;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+video {
+    box-sizing: border-box;
+    flex: 1;
+    margin: 20;
+}
+
+#received_video {
+    background-color: rebeccapurple;
+}
+
+#local_video {
+    background-color: red;
+}
+
+button {
+    padding: 10 20;
+    border: none;
+    background-color: lightcoral;
+    outline: none;
+    cursor: pointer;
+    margin: auto;
+}
+
+button:active {
+    background-color: lightpink;
+}
+
+input {
+    outline: none;
+    text-align: center;
+    padding: 5;
+    height: 20;
+}
